@@ -1,0 +1,13 @@
+{
+    "name": "Peso wifi self click",
+    "version": "1.0.3",
+    "description": "Helps you to self click the peso wifi",
+    "manifest_version": 3,
+    "author": "Marvin Rubio",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+      ]
+}
